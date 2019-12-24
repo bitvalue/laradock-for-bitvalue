@@ -1,9 +1,9 @@
 <VirtualHost *:80>
-  ServerName laradock.test
-  DocumentRoot /var/www/
+  ServerName localhost
+  DocumentRoot /var/www/htdocs/
   Options Indexes FollowSymLinks
 
-  <Directory "/var/www/">
+  <Directory "/var/www/htdocs/">
     AllowOverride All
     <IfVersion < 2.4>
       Allow from all
